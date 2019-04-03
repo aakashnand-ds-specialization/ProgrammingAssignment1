@@ -21,7 +21,7 @@ complete <-function(directory, id=1:332){
       result_df[ which(result_df$id==i),2 ] <- count
     }
   }
-  
+  result_df
   # print(result_df)
   
 }
